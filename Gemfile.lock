@@ -42,7 +42,7 @@ GEM
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
-    addressable (2.7.0)
+    addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     airbrake (10.0.4)
       airbrake-ruby (~> 4.13)
@@ -52,6 +52,7 @@ GEM
     autoprefixer-rails (9.7.6)
       execjs
     awesome_print (1.8.0)
+    bcrypt (3.1.16)
     bindex (0.8.1)
     bootsnap (1.4.6)
       msgpack (~> 1.0)
@@ -119,7 +120,7 @@ GEM
     nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
     pg (1.2.3)
-    public_suffix (4.0.5)
+    public_suffix (4.0.6)
     puma (3.12.6)
     rack (2.2.2)
     rack-test (1.1.0)
@@ -232,12 +233,41 @@ GEM
       nokogiri (~> 1.8)
 
 PLATFORMS
+  autoprefixer-unknown
+  bootstrap-unknown
+  coffee-unknown
+  jquery-unknown
+  rspec-unknown
   ruby
+  sass-unknown
+  shoulda-unknown
+  spring-unknown
+  tzinfo-unknown
+  unknown
+  unknown
+  unknown
+  unknown
+  unknown
+  unknown
+  unknown
+  unknown
+  unknown
+  unknown
+  unknown
+  unknown
+  unknown
+  unknown
+  unknown
+  unknown
+  unknown
+  unknown
+  web-unknown
 
-
+DEPENDENCIES
   airbrake
   autoprefixer-rails
   awesome_print
+  bcrypt (~> 3.1.7)
   bootsnap (>= 1.1.0)
   bootstrap-sass
   byebug
